@@ -25,7 +25,7 @@ USER_CHROME = """
 DESKTOP = """[Desktop Entry]
 Version=1.0
 Name={name}
-Exec=firefox --profile {profile} --no-remote --name={name}
+Exec=firefox --profile {profile} --no-remote --name={name} --class={name}
 Icon={icon_name}
 Terminal=false
 Type=Application
